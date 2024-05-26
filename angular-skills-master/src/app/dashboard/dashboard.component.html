@@ -1,0 +1,10 @@
+<div class="container">
+    <h3>
+        My Skills
+      </h3>
+    <div class="row">
+      <ng-container *ngFor="let card of cards" class="teste">
+        <app-card [card]="card"></app-card>
+      </ng-container>
+    </div>
+  </div>

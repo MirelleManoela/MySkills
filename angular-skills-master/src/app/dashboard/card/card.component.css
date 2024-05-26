@@ -1,0 +1,84 @@
+  .example-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px; 
+    height: 400px; 
+    padding: 10px; 
+    background-color: #edc5a5
+    ;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  img{
+    width: 270px;
+  height: 270px;
+  }
+
+  p{
+    font: Lucida Sans;
+  }
+  mat-card-title{
+    align-self: center; 
+  color: rgb(0, 0, 0);
+  font-family: "Lucida Sans", sans-serif; 
+  font-size: 25px;
+  }
+  .likes-medium {
+    background-color: rgb(56, 101, 184);
+    color: blue;
+  }
+  
+  .likes-high {
+    background-color: rgb(236, 161, 173);
+  }
+
+  @media screen and (max-width:1279px) and (min-width:960px) {
+    .example-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 450px; 
+      height: 450px; 
+      padding: 10px; 
+      border-radius: 15px;
+      align-items: center;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+    img{
+      width: 330px;
+    height: 330px;
+    }
+    p{
+      font: Lucida Sans;
+      font-size: 17px;
+    }
+    
+}
+
+@media screen and (max-width:959px) {
+  .example-card {
+   
+    justify-content: space-between;
+    width: 540px; 
+    height: 540px;
+    padding: 10px; 
+    margin-bottom: 40px;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  img{
+    width: 270px;
+  height: 270px;
+  }
+  p{
+    font: Lucida Sans;
+    font-size: 20px;
+  }
+  mat-card-title{
+  font-size: 20px;
+  }
+}
