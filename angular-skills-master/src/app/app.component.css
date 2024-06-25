@@ -2,3 +2,15 @@ p {
   font-family: Lato;
 }
 
+.loading-message {
+  background-color:antiquewhite;
+  color: #333333;
+  border: 1px solid #cccccc;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+  margin: 20px auto;
+  font-family: Apple Chancery, cursive;
+}

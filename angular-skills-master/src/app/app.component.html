@@ -1,3 +1,6 @@
-
-
-<app-dashboard></app-dashboard>
+<div *ngIf="showLoading" class="loading-message">
+    Por favor, aguarde um instante...
+  </div>
+  <div *ngIf="!showLoading">
+    <app-dashboard></app-dashboard>
+  </div>
